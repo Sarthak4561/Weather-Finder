@@ -7,7 +7,7 @@
 
 
 body{
-    background-image: url(/Images/weather.jpg);
+    background-image: url(/weather.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -67,8 +67,46 @@ body{
     border: none;
     border-radius: 1.5em;
 }
+
 .result{
+    /* background-color: lightpink; */
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
     color: #ffffff;
+}
+
+.section-1{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-basis: 40%;
+}
+
+.section-2{
+    margin-top: 10%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-basis: 40%;
+}
+.current-location{
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+}
+
+.current-forecast{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 10%;
+}
+.future{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
 }
