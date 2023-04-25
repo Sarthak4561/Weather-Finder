@@ -1,5 +1,5 @@
 console.log('file running');
-
+console.log('system check');
 let searchBtn = document.querySelector('#search-btn')
 let placename = document.getElementById('place-name');
 
